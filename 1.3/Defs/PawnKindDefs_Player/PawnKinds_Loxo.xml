@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="BaseLoxoPawnKind">
+		<defName>FR_Loxo</defName>
+		<label>Loxo</label>
+		<race>FR_Alien_Loxo</race>
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>FR_LoxoPlayerColony</defaultFactionType>
+		<initialWillRange>2~5</initialWillRange>
+	        <initialResistanceRange>25~30</initialResistanceRange>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>50</min>
+			<max>800</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.03</techHediffsChance>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>800</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<PawnKindDef Name="BaseTribalLoxoPawnKind">
+		<defName>FR_LoxoTribal</defName>
+		<label>Tribal Loxo</label>
+		<race>FR_Alien_Loxo</race>
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>FR_LoxoPlayerTribe</defaultFactionType>
+		<initialWillRange>2~5</initialWillRange>
+	        <initialResistanceRange>25~30</initialResistanceRange>
+		<apparelTags>
+			<li>Medieval</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>200</min>
+			<max>200</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.02</techHediffsChance>
+		<techHediffsMoney>
+			<min>50</min>
+			<max>50</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+</Defs>

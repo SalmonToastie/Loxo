@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerLoxoUtility</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>LoxoFirstMale->NameBanks/Names_First_Loxo_Male</li>
+        <li>LoxoFirstFemale->NameBanks/Names_First_Loxo_Female</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerLoxoMale</defName>
+    <include>
+      <li>NamerLoxoUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=12)->[LoxoFirstMale]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerLoxoFemale</defName>
+    <include>
+      <li>NamerLoxoUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=12)->[LoxoFirstFemale]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
